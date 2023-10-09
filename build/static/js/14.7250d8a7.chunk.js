@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmodernize=self.webpackChunkmodernize||[]).push([[14],{9979:function(e,i,s){s.r(i);s(2791);var a=s(890),n=s(6768),l=s(9637),t=s(184);i.default=function(){return(0,t.jsx)(n.Z,{title:"Sample Page",description:"this is Sample page",children:(0,t.jsx)(l.Z,{title:"Sample Page",children:(0,t.jsx)(a.Z,{children:"This is a sample page"})})})}}}]);
+//# sourceMappingURL=14.7250d8a7.chunk.js.map

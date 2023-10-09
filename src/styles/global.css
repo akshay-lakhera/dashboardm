@@ -1,0 +1,108 @@
+:root {
+  --themecol: gray;
+  --themecol2: #1ea1f2;
+
+  --coltheme: #1ea1f2;
+}
+.bgtheme {
+  background-color: var(--themecol) !important;
+}
+.bgtheme2 {
+  background-color: var(--themecol2) !important;
+}
+.coltheme {
+  color: var(--themecol2) !important;
+}
+.coltheme2 {
+  color: var(--themecol2) !important;
+}
+.cus-btn {
+  background-color: var(--themecol2) !important;
+  color: white !important;
+}
+
+.metamask {
+  background-color: #1ea1f2 !important;
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+.w-full{
+  width: 100%;
+}
+.fs16 {
+  font-size: 16px !important;
+}
+
+.fs20 {
+  font-size: 20px !important;
+}
+.fs25 {
+  font-size: 25px !important;
+}
+
+.searchInput {
+  width: 100%;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+}
+
+.tablebox {
+  font-size: 14px !important;
+}
+.css-66gjpw-MuiResponsiveChart-container {
+  width: 100% !important;
+}
+
+.boxshadow{
+  -webkit-box-shadow: 0px 18px 21px 1px rgba(46,46,46,1) !important;
+    -moz-box-shadow: 0px 18px 21px 1px rgba(46,46,46,1) !important;
+    box-shadow: 0px 18px 21px 1px rgba(46,46,46,1) !important;
+    border: 1px solid rgb(79, 79, 79);
+    border-radius: 10px;
+}
+.inputlogin{
+  color: white !important;  
+}
+
+.inputlogin{
+  background-color: inherit;
+  border: 1px solid gray;
+  width: 100%;
+  padding: 13px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+ /* custom css */
+ .flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+ }
+ .flex-between {
+   display: flex;
+   justify-content: space-between;
+  width: 100%;
+ }
+ .flex-end {
+   display: flex;
+   width: 100%;
+   justify-content:end;
+ }
+ .flex {
+   display: flex;
+   
+ }
+
+ .gap1{
+  gap:1rem ;
+ }
+ 

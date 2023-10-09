@@ -1,0 +1,112 @@
+:root {
+    --themecol: gray;
+    --themecol2: #1ea1f2;
+
+    --coltheme: #1ea1f2;
+}
+.subcategorybtn{
+    display: flex;
+    border: 1px solid red;
+}
+.properties{
+    /* border: 1px solid black; */
+    /* border: 1px solid gray; */
+    border-top: 1px solid gray;
+    color: white;
+    padding: 14px 5px;
+    cursor: pointer;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    /* justify-content: center; */
+    justify-content: space-between;
+}
+.active-properties{
+    /* border: 1px solid black; */
+    /* border: 1px solid gray; */
+    border-top: 1px solid gray;
+    color: white;
+    padding: 17px 5px;
+        padding-left: 20px;
+        display: flex;
+            align-items: center;
+            
+            justify-content: space-between;
+    background-color: var(--themecol2);
+}
+
+.categoriesCover{
+    min-height: 100%;
+    /* padding-top: 3rem; */
+    background-color:#111111;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.selectedChip {
+    background: rgb(255, 255, 255);
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(105, 145, 224, 1) 100%);
+}
+.grill-cover{
+    display: flex;
+    gap: 20px;
+    background-color: black;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    /* margin-top: 20px; */
+    font-size: 18px;
+    padding: 15px;
+    overflow: scroll;
+  /* width: 100%; */
+    /* position: absolute; */
+        /* -webkit-animation: linear infinite;
+        -webkit-animation-name: run;
+        -webkit-animation-duration: 5s; */
+}
+  /* width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+.upload-csv-cover{
+    /* border: 1px dashed rgb(86, 190, 255); */
+    border: 1px dashed rgb(10, 10, 10);
+    border-radius: 10px;
+    height: 8rem;
+    width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        cursor: pointer;
+  
+}
+.upload-csv-cover >input {
+    cursor: pointer;
+}
+
+@-webkit-keyframes run {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+@media screen and (min-width:768px) {
+    .categoriesCover {
+            min-height: 100%;
+            text-align: center;
+            color: white;
+            /* padding-top: rem; */
+            /* background-color:#111111; */
+        }
+}
